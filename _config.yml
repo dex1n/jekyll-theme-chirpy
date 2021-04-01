@@ -92,6 +92,9 @@ disqus:
 
 paginate: 10
 
+# ------------ BlogChirpyCat ------------------
+icp_license: my icp license
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
