@@ -2,13 +2,16 @@
 
 -
   type: github
-  icon: 'fab fa-github-alt'
+  icon: 'fab fa-github'
+  url: "https://github.com/dex1n"
 -
   type: twitter
   icon: 'fab fa-twitter'
+  url: "https://twitter.com/111"
 -
   type: email
   icon: 'fas fa-envelope'
+  url: "haha@gmail.com"
   noblank: true            # open link in current tab
 -
   type: rss
