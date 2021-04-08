@@ -8,14 +8,16 @@
     @include dark-scheme;
 
     .mode-toggle {
-      transform: rotateY(180deg);
+      //transform: rotateY(180deg);
+      text-shadow: none;
     }
-
   } @else {
     @include light-scheme;
 
     .mode-toggle {
-      transform: none;
+      //transform: none;
+      text-shadow: 0 0 0.5px #000;
+      //text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;;
     }
   }
 
@@ -648,6 +650,7 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
+      color: var(--sidebar-nav-item-text-color);
     }
   }
 
@@ -674,14 +677,17 @@ $sidebar-display: "sidebar-display";
     text-align: center;
     display: table;
     height: $tab-height;
+    .nav-link {
+      color: var(--sidebar-nav-item-text-color);
+    }
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: var(--sidebar-nav-item-text-color-hover);
       }
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        color: var(--sidebar-nav-item-text-color-active);
       }
     }
   }
