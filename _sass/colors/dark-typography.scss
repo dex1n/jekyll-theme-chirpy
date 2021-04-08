@@ -33,8 +33,10 @@
 
   /* Sidebar */
   --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
+  --sidebar-link-color: rgba(255, 255, 255, 0.5);
+  --sidebar-bottom-icon-hover-color: rgb(255, 255, 255);
   --nav-cursor-color: rgb(183, 182, 182);
-  --sidebar-nav-item-text-color: var(--nav-cursor-color); // TODO: real color
+  --sidebar-nav-item-text-color: var(--text-color); 
   --sidebar-nav-item-text-color-hover: #f8f9facf;
   --sidebar-nav-item-text-color-active: #fcfcfc;
 
