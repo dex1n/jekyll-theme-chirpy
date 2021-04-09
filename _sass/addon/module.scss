@@ -56,6 +56,9 @@
   text-decoration: none;
 }
 
+// This will affect all links in side bar, including share icons and mode icons.
+// And this is so implicit that might not be noticed. 
+// Fxxk CSS.
 @mixin sidebar-links($color: var(--sidebar-link-color)) {
   color: $color;
   //transition: color 0.35s ease-in-out;  // We don't need this transition animation cause it may cause link flash.
